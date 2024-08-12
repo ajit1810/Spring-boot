@@ -15,7 +15,7 @@ import com.example.Book_Keeping_Springboot.Services.BookServicesImp;
 
 //define this controller
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin
 public class BookController {
 	
 	@Autowired
